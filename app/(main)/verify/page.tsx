@@ -1,12 +1,12 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { account } from '@/services/appwrite';
 
 type VerificationState = 'verifying' | 'success' | 'error' | 'pending';
 
-export default function VerifyPage() {
+function VerifyContent() {
   const searchParams = useSearchParams();
   const [state, setState] = useState<VerificationState>('pending');
   const [errorMessage, setErrorMessage] = useState('');
@@ -219,5 +219,26 @@ export default function VerifyPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function VerifyPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-b from-[#F3EBFF] to-white flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-md w-full">
+          <div className="bg-white rounded-2xl shadow-xl p-8">
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#F3EBFF] mb-4">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#671EE5]"></div>
+              </div>
+              <p className="text-gray-600">Loading...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    }>
+      <VerifyContent />
+    </Suspense>
   );
 }

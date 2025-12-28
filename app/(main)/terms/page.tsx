@@ -397,8 +397,8 @@ export default function TermsPage() {
               </p>
               <div className="bg-[#F3EBFF]900/20 border-l-4 border-[#F3EBFF]0 p-4">
                 <p className="text-gray-700300">
-                  <strong>Email:</strong> legal@wisevpn.com<br />
-                  <strong>Support:</strong> support@wisevpn.com<br />
+                  <strong>Email:</strong> legal@wisevpn.app<br />
+                  <strong>Support:</strong> support@wisevpn.app<br />
                   <strong>Website:</strong> <a href="/contact" className="text-[#671EE5]400 hover:underline">Contact Us</a>
                 </p>
               </div>

@@ -402,7 +402,7 @@ export default function PrivacyPage() {
                 <li><strong>Withdrawal:</strong> Withdraw consent for data processing</li>
               </ul>
               <p className="text-gray-700300 mt-4">
-                To exercise these rights, please contact us at privacy@wisevpn.com
+                To exercise these rights, please contact us at privacy@wisevpn.app
               </p>
             </section>
 
@@ -440,7 +440,7 @@ export default function PrivacyPage() {
                 11. Children's Privacy
               </h2>
               <p className="text-gray-700300 mb-3">
-                Our service is not intended for children under 13 years of age (or under 16 in the European Economic Area). We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately at privacy@wisevpn.com and we will delete it promptly.
+                Our service is not intended for children under 13 years of age (or under 16 in the European Economic Area). We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately at privacy@wisevpn.app and we will delete it promptly.
               </p>
               <p className="text-gray-700300">
                 Users between 13-18 years old should use our service only with parental or guardian consent and supervision.
@@ -537,8 +537,8 @@ export default function PrivacyPage() {
               </p>
               <div className="bg-[#F3EBFF]900/20 border-l-4 border-[#F3EBFF]0 p-4">
                 <p className="text-gray-700300">
-                  <strong>Email:</strong> privacy@wisevpn.com<br />
-                  <strong>Support:</strong> support@wisevpn.com<br />
+                  <strong>Email:</strong> privacy@wisevpn.app<br />
+                  <strong>Support:</strong> support@wisevpn.app<br />
                   <strong>Website:</strong> <a href="/contact" className="text-[#671EE5]400 hover:underline">Contact Us</a>
                 </p>
               </div>

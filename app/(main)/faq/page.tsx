@@ -441,7 +441,7 @@ export default function FAQPage() {
               Contact Support
             </a>
             <a
-              href="mailto:support@wisevpn.com"
+              href="mailto:support@wisevpn.app"
               className="inline-flex items-center justify-center px-6 py-3 bg-[#5018B8] hover:bg-[#211732] text-white font-semibold rounded-lg transition-colors duration-200"
             >
               Email Us

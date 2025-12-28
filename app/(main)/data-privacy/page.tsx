@@ -391,8 +391,8 @@ export default function DataPrivacyPage() {
               <div className="bg-[#F3EBFF] rounded-lg p-4 mt-4">
                 <p className="text-sm text-gray-700">
                   To exercise any of these rights, please contact us at{' '}
-                  <a href="mailto:privacy@wisevpn.com" className="text-[#671EE5] hover:underline font-medium">
-                    privacy@wisevpn.com
+                  <a href="mailto:privacy@wisevpn.app" className="text-[#671EE5] hover:underline font-medium">
+                    privacy@wisevpn.app
                   </a>
                   {' '}or visit your account settings.
                 </p>
@@ -474,8 +474,8 @@ export default function DataPrivacyPage() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Email</h4>
-                    <a href="mailto:privacy@wisevpn.com" className="text-[#671EE5] hover:underline">
-                      privacy@wisevpn.com
+                    <a href="mailto:privacy@wisevpn.app" className="text-[#671EE5] hover:underline">
+                      privacy@wisevpn.app
                     </a>
                   </div>
                   <div>
@@ -486,8 +486,8 @@ export default function DataPrivacyPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Data Protection Officer</h4>
-                    <a href="mailto:dpo@wisevpn.com" className="text-[#671EE5] hover:underline">
-                      dpo@wisevpn.com
+                    <a href="mailto:dpo@wisevpn.app" className="text-[#671EE5] hover:underline">
+                      dpo@wisevpn.app
                     </a>
                   </div>
                   <div>

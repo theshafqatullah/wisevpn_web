@@ -32,7 +32,7 @@ export default function ContactPage() {
                 </svg>
                 <div>
                   <h3 className="text-lg font-medium text-gray-900">Email</h3>
-                  <p className="text-gray-600">support@wisevpn.com</p>
+                  <p className="text-gray-600">support@wisevpn.app</p>
                   <p className="text-sm text-gray-600 mt-1">
                     We'll respond within 24 hours
                   </p>
@@ -187,7 +187,7 @@ export default function ContactPage() {
                 </span>
               </summary>
               <p className="text-gray-600 dark:text-gray-400 mt-3 ml-4">
-                Yes, we have dedicated enterprise solutions with custom pricing and features. Please contact us at enterprise@wisevpn.com for more information.
+                Yes, we have dedicated enterprise solutions with custom pricing and features. Please contact us at enterprise@wisevpn.app for more information.
               </p>
             </details>
           </div>

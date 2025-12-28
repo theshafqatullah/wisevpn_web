@@ -37,15 +37,16 @@ export default function PricingPage() {
           <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
             <div className="mb-6">
               <h3 className="text-xl font-semibold text-gray-900">Monthly</h3>
-              <p className="text-gray-600 mt-2">Perfect for trying out WiseVPN</p>
+              <p className="text-gray-600 mt-2">Ad-free VPN with full access</p>
             </div>
             
             <div className="mb-6">
               <div className="flex items-baseline">
-                <span className="text-5xl font-bold text-gray-900">$12.99</span>
+                <span className="text-5xl font-bold text-gray-900">$4.99</span>
                 <span className="text-gray-600 ml-2">/month</span>
               </div>
               <p className="text-sm text-gray-600 mt-2">Billed monthly</p>
+              <p className="text-sm font-semibold text-[#671EE5] mt-1">Best for flexibility</p>
             </div>
 
             <ul className="space-y-4 mb-8">
@@ -86,25 +87,79 @@ export default function PricingPage() {
             </button>
           </div>
 
-          {/* Annual Plan - Popular */}
-          <div className="bg-gradient-to-br from-[#671EE5] to-[#8B4CFF] rounded-2xl shadow-2xl p-8 relative transform scale-105">
-            <div className="absolute top-0 right-0 bg-yellow-400 text-gray-900 text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-2xl">
-              MOST POPULAR
-            </div>
-            
+          {/* Quarterly Plan */}
+          <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
             <div className="mb-6">
-              <h3 className="text-xl font-semibold text-white">Annual</h3>
-              <p className="text-purple-100 mt-2">Save 54% with annual billing</p>
+              <h3 className="text-xl font-semibold text-gray-900">Quarterly</h3>
+              <p className="text-gray-600 mt-2">Save more than monthly</p>
             </div>
             
             <div className="mb-6">
               <div className="flex items-baseline">
-                <span className="text-5xl font-bold text-white">$5.99</span>
+                <span className="text-5xl font-bold text-gray-900">$4.33</span>
+                <span className="text-gray-600 ml-2">/month</span>
+              </div>
+              <p className="text-sm text-gray-600 mt-2">$12.99 billed every 3 months</p>
+              <p className="text-sm font-semibold text-[#671EE5] mt-1">Best balance</p>
+            </div>
+
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">Unlimited bandwidth</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">Access to 75+ countries</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">5 simultaneous devices</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">24/7 customer support</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-900 font-semibold">100% strict no-logs policy</span>
+              </li>
+            </ul>
+
+            <button className="w-full bg-[#671EE5] hover:bg-[#5018B8] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
+              Get Started
+            </button>
+          </div>
+
+          {/* Yearly Plan - Most Popular */}
+          <div className="bg-gradient-to-br from-[#671EE5] to-[#8B4CFF] rounded-2xl shadow-2xl p-8 relative transform scale-105">
+            <div className="absolute top-0 right-0 bg-yellow-400 text-gray-900 text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-2xl">
+              ⭐ MOST POPULAR
+            </div>
+            
+            <div className="mb-6">
+              <h3 className="text-xl font-semibold text-white">Yearly</h3>
+              <p className="text-purple-100 mt-2">Best value - Save 33%</p>
+            </div>
+            
+            <div className="mb-6">
+              <div className="flex items-baseline">
+                <span className="text-5xl font-bold text-white">$3.33</span>
                 <span className="text-purple-100 ml-2">/month</span>
               </div>
-              <p className="text-sm text-purple-100 mt-2">$71.88 billed annually</p>
+              <p className="text-sm text-purple-100 mt-2">$39.99 billed annually</p>
               <div className="inline-block mt-2 bg-yellow-400 text-gray-900 text-xs font-bold px-2 py-1 rounded">
-                Save $84/year
+                Save 33% • One payment, full year
               </div>
             </div>
 
@@ -142,62 +197,6 @@ export default function PricingPage() {
             </ul>
 
             <button className="w-full bg-white hover:bg-gray-100 text-[#671EE5] font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
-              Get Started
-            </button>
-          </div>
-
-          {/* 2-Year Plan */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold text-gray-900">2-Year Plan</h3>
-              <p className="text-gray-600 mt-2">Best value for long-term users</p>
-            </div>
-            
-            <div className="mb-6">
-              <div className="flex items-baseline">
-                <span className="text-5xl font-bold text-gray-900">$3.99</span>
-                <span className="text-gray-600 ml-2">/month</span>
-              </div>
-              <p className="text-sm text-gray-600 mt-2">$95.76 billed every 2 years</p>
-              <div className="inline-block mt-2 bg-green-100 text-green-800 text-xs font-bold px-2 py-1 rounded">
-                Save 69%
-              </div>
-            </div>
-
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-700 dark:text-gray-300">Unlimited bandwidth</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-700 dark:text-gray-300">Access to 75+ countries</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-700 dark:text-gray-300">10 simultaneous devices</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-700 dark:text-gray-300">Priority customer support</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-900 font-semibold">100% strict no-logs policy</span>
-              </li>
-            </ul>
-
-            <button className="w-full bg-[#671EE5] hover:bg-[#5018B8] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
               Get Started
             </button>
           </div>

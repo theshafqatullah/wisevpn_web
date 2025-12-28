@@ -388,9 +388,9 @@ export default function Home() {
             {/* Monthly Plan */}
             <div className="relative bg-white rounded-3xl p-8 border-2 border-gray-200 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Monthly</h3>
-              <p className="text-gray-600 mb-6">Perfect for trying out</p>
+              <p className="text-gray-600 mb-6">Best for flexibility</p>
               <div className="mb-8">
-                <span className="text-5xl font-black text-gray-900">$12.99</span>
+                <span className="text-5xl font-black text-gray-900">$4.99</span>
                 <span className="text-gray-600 text-lg">/month</span>
               </div>
               <a href="/pricing" className="block w-full bg-gradient-to-r from-gray-100 to-gray-200 hover:from-gray-200 hover:to-gray-300 text-gray-900 text-center py-4 rounded-xl font-bold text-lg transition-all duration-300 shadow-lg">
@@ -412,20 +412,48 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Annual Plan - Popular */}
+            {/* Quarterly Plan */}
+            <div className="relative bg-white rounded-3xl p-8 border-2 border-gray-200 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Quarterly</h3>
+              <p className="text-gray-600 mb-6">Best balance</p>
+              <div className="mb-8">
+                <span className="text-5xl font-black text-gray-900">$4.33</span>
+                <span className="text-gray-600 text-lg">/month</span>
+                <div className="text-sm text-gray-600 mt-1">$12.99 every 3 months</div>
+              </div>
+              <a href="/pricing" className="block w-full bg-gradient-to-r from-gray-100 to-gray-200 hover:from-gray-200 hover:to-gray-300 text-gray-900 text-center py-4 rounded-xl font-bold text-lg transition-all duration-300 shadow-lg">
+                Get Started
+              </a>
+              <ul className="mt-8 space-y-4">
+                <li className="flex items-center text-gray-700">
+                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  <span className="text-sm">All premium features</span>
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  <span className="text-sm">Fewer renewals</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Yearly Plan - Most Popular */}
             <div className="relative bg-gradient-to-br from-[#671EE5] via-[#8B4CFF] to-pink-600 rounded-3xl p-8 shadow-2xl transform scale-105 hover:scale-110 transition-all duration-300">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                 <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 text-xs font-black px-6 py-2 rounded-full shadow-lg">
                   ⭐ MOST POPULAR
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2">Annual</h3>
-              <p className="text-purple-100 mb-6">Best value for money</p>
+              <h3 className="text-2xl font-bold text-white mb-2">Yearly</h3>
+              <p className="text-purple-100 mb-6">Best value - Save 33%</p>
               <div className="mb-8">
-                <span className="text-5xl font-black text-white">$5.99</span>
+                <span className="text-5xl font-black text-white">$3.33</span>
                 <span className="text-purple-100 text-lg">/month</span>
                 <div className="inline-block ml-3 bg-yellow-400 text-gray-900 text-xs font-black px-3 py-1 rounded-full">
-                  SAVE 54%
+                  SAVE 33%
                 </div>
               </div>
               <a href="/pricing" className="block w-full bg-white hover:bg-gray-100 text-[#671EE5] text-center py-4 rounded-xl font-bold text-lg transition-all duration-300 shadow-xl">
@@ -442,39 +470,7 @@ export default function Home() {
                   <svg className="w-5 h-5 text-yellow-300 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm">Priority support</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* 2-Year Plan */}
-            <div className="relative bg-white rounded-3xl p-8 border-2 border-gray-200 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-              <div className="absolute -top-3 -right-3">
-                <div className="bg-gradient-to-r from-green-500 to-teal-500 text-white text-xs font-black px-4 py-2 rounded-full shadow-lg">
-                  SAVE 69%
-                </div>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">2-Year</h3>
-              <p className="text-gray-600 mb-6">Maximum savings</p>
-              <div className="mb-8">
-                <span className="text-5xl font-black text-gray-900">$3.99</span>
-                <span className="text-gray-600 text-lg">/month</span>
-              </div>
-              <a href="/pricing" className="block w-full bg-gradient-to-r from-gray-100 to-gray-200 hover:from-gray-200 hover:to-gray-300 text-gray-900 text-center py-4 rounded-xl font-bold text-lg transition-all duration-300 shadow-lg">
-                Get Started
-              </a>
-              <ul className="mt-8 space-y-4">
-                <li className="flex items-center text-gray-700">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-sm">All premium features</span>
-                </li>
-                <li className="flex items-center text-gray-700">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-sm">Priority support</span>
+                  <span className="text-sm">One payment, full year</span>
                 </li>
               </ul>
             </div>

@@ -1,0 +1,236 @@
+WISEVPN - GOOGLE PLAY STORE LISTING
+====================================
+Generated: December 29, 2025
+
+IMPORTANT: Ensure all claims are substantiated and comply with Google Play Store policies.
+
+
+SHORT DESCRIPTION (Max 80 characters)
+========================================
+Character Count: 69/80
+
+Secure VPN with 100% no-logs policy. Browse privately. Stay protected.
+
+
+LONG DESCRIPTION (Max 4000 characters)
+========================================
+Character Count: 2847/4000
+
+🔒 WiseVPN - Your Privacy, Our Priority
+
+Browse the internet securely and privately with WiseVPN. Trusted by 5M+ users worldwide, we offer military-grade encryption with an absolute 100% strict no-logs policy — no tracking, no compromises.
+
+✅ VERIFIED 100% NO-LOGS POLICY
+Unlike other VPNs, we don't just claim privacy — we guarantee it. We don't collect, store, or log ANY of your online activity:
+• No browsing history
+• No connection logs
+• No traffic data
+• No DNS queries
+Our infrastructure is designed to make logging impossible. What you do online is your business only.
+
+🚀 WIREGUARD® PROTOCOL - THE FASTEST VPN TECHNOLOGY
+We exclusively use WireGuard, the most advanced VPN protocol available:
+• ChaCha20 encryption for maximum security
+• Up to 4x faster than traditional VPN protocols
+• ~4,000 lines of auditable code (vs. 400,000+ in older protocols)
+• Lightning-fast speeds on DigitalOcean's premium infrastructure
+
+🌍 GLOBAL NETWORK
+• 2000+ servers in 75+ countries worldwide
+• Unlimited bandwidth on all plans
+• ICMP ping testing to find the fastest server
+• True worldwide coverage
+
+🛡️ POWERFUL SECURITY FEATURES
+• Kill Switch - Blocks internet if VPN drops
+• DNS Leak Protection - Keep your DNS queries private
+• Split Tunneling - Choose which apps use VPN
+• Multi-Device Support - Protect up to 10 devices simultaneously
+• 24/7 Customer Support - We're here when you need us
+
+📱 COMPATIBLE WITH ALL YOUR DEVICES
+• Android
+• Windows, Mac, Linux
+• iOS
+• And more
+
+💎 FLEXIBLE PLANS FOR EVERYONE
+• Free Plan - Basic VPN protection with ads
+• Premium Plans - Ad-free experience starting at just $3.99/month
+• 30-Day Money-Back Guarantee on all premium plans
+• No credit card required to try
+
+🎯 WHY CHOOSE WISEVPN?
+✓ Privacy First - Absolute zero activity tracking guaranteed
+✓ Lightning-Fast - WireGuard protocol delivers blazing speeds
+✓ Global Coverage - Access content from anywhere in the world
+✓ Always Innovating - Regular updates with cutting-edge technology
+✓ Transparent - Simple pricing, no hidden fees
+✓ Secure Infrastructure - Enterprise-grade DigitalOcean hosting
+
+🔐 PROTECT YOUR DIGITAL LIFE
+• Browse anonymously without being tracked
+• Secure your connection on public Wi-Fi
+• Access geo-restricted content worldwide
+• Protect sensitive data from hackers
+• Shield your online identity from ISPs and advertisers
+
+Download WiseVPN today and experience true internet freedom with guaranteed privacy protection!
+
+---
+WireGuard® is a registered trademark of Jason A. Donenfeld.
+
+
+GOOGLE PLAY STORE COMPLIANCE CHECKLIST
+========================================
+
+✓ CONTENT POLICY COMPLIANCE:
+  - No misleading claims or deceptive behavior
+  - Accurate representation of app functionality
+  - No prohibited content (hate speech, violence, illegal activities)
+  - Appropriate for all audiences
+  
+✓ PRIVACY & DATA HANDLING:
+  - Must have a Privacy Policy URL in the Play Store listing
+  - Declare all data collection in Data Safety section
+  - If "no-logs" is claimed, Data Safety should reflect no user data collection
+  - Be transparent about any analytics or crash reporting tools used
+  
+✓ REQUIRED DISCLOSURES:
+  - Pricing clearly stated (Free + In-App Purchases)
+  - In-app purchase options must be declared
+  - Subscription terms clearly communicated
+  - Refund/cancellation policy accessible
+  
+✓ TRADEMARK COMPLIANCE:
+  - WireGuard® trademark properly attributed
+  - DigitalOcean mentioned as infrastructure provider (factual)
+  - No unauthorized use of third-party trademarks
+
+
+DATA SAFETY SECTION REQUIREMENTS
+==================================
+(Must be completed in Google Play Console)
+
+Based on "100% No-Logs Policy" claim, your Data Safety section should indicate:
+
+DATA COLLECTION:
+□ No user data collected for VPN traffic/activity
+□ Declare if you collect: email (for account), payment info (for subscriptions)
+□ Declare any analytics data (e.g., Firebase Analytics, crash reports)
+□ Declare any device identifiers used
+
+DATA SHARING:
+□ Specify if any data is shared with third parties
+□ Payment processors (Stripe, Google Play Billing, etc.)
+□ Analytics providers (if any)
+
+DATA SECURITY:
+☑ Data is encrypted in transit
+☑ No user activity logs stored
+□ Describe how account data (if collected) is protected
+
+
+REQUIRED STORE LISTING MATERIALS
+==================================
+
+1. App Icon (512x512px)
+2. Feature Graphic (1024x500px)
+3. Screenshots (minimum 2, up to 8)
+   - Phone: 16:9 or 9:16 ratio
+   - Tablet: recommended
+4. Privacy Policy URL (REQUIRED)
+5. App Category: Tools or Productivity
+6. Content Rating Questionnaire
+7. Target Audience: Age 13+ recommended
+
+
+SUBSCRIPTION & PRICING DISCLOSURE
+===================================
+
+Must clearly state in app description or dedicated section:
+• Free tier available with ads
+• Premium pricing: $3.99-$4.99/month
+• 30-day money-back guarantee terms
+• Auto-renewal details
+• How to cancel subscriptions
+
+Link to Terms of Service: https://wisevpn.com/terms
+Link to Privacy Policy: https://wisevpn.com/privacy
+
+
+IMPORTANT LEGAL REMINDERS
+===========================
+
+1. VPN apps must comply with local laws in all markets
+2. Cannot be used to bypass legal restrictions
+3. Must not facilitate illegal activity
+4. Consider restricted distribution in certain countries
+5. Ensure your no-logs policy is accurate and auditable
+6. Have legal documentation to support all claims
+7. Terms of Service must address prohibited uses
+8. Privacy Policy must accurately reflect data practices
+
+
+PROHIBITED CLAIMS TO AVOID
+============================
+
+✗ "100% anonymous" - IP addresses may be visible to servers
+✗ "Unhackable" or "Completely secure" - no system is 100% secure
+✗ "Unblock everything" - some services may detect/block VPNs
+✗ Claims about competitor products without evidence
+✗ Medical or health-related claims
+✗ Guarantees about illegal activity protection
+
+
+APP CONTENT RATING
+===================
+
+When completing the Content Rating Questionnaire:
+• Select appropriate age rating
+• Disclose if app can access unfiltered internet
+• Note: VPN apps typically rated for teens (13+) and up
+• Be honest about all functionality
+
+
+FINAL CHECKLIST BEFORE SUBMISSION
+===================================
+
+□ All claims in description are accurate and provable
+□ Privacy Policy URL is active and comprehensive
+□ Terms of Service URL is active and comprehensive
+□ Data Safety section accurately reflects data practices
+□ Screenshots show actual app interface
+□ No misleading imagery or text
+□ Subscription pricing clearly disclosed
+□ Contact email for support provided
+□ App tested and functioning on multiple Android versions
+□ Complies with VPN-specific Google Play policies
+□ All required legal pages accessible from app
+
+
+CONTACT & SUPPORT INFORMATION
+===============================
+
+Ensure these are available:
+• Developer email: support@wisevpn.com (or actual email)
+• Website: https://wisevpn.com
+• Privacy Policy: https://wisevpn.com/privacy
+• Terms of Service: https://wisevpn.com/terms
+• Support page: https://wisevpn.com/support
+
+
+NOTES FOR FUTURE UPDATES
+==========================
+
+• Keep descriptions updated with new features
+• Update server count and country list as network expands
+• Revise Data Safety section if data practices change
+• Update screenshots when UI changes significantly
+• Monitor user reviews and respond professionally
+• Keep Privacy Policy and Terms updated
+
+
+---
+Last Updated: December 29, 2025
+Review this document before each Play Store update.

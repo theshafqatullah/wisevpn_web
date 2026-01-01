@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.olenagroup.wisevpn",
+      "sha256_cert_fingerprints": [
+        "70:97:6B:47:0D:66:BA:FB:29:8D:6A:62:80:5D:DE:FA:70:42:A9:7D:40:52:6D:A9:4C:60:0F:74:1F:98:F6:7B"
+      ]
+    }
+  }
+]

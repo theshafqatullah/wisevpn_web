@@ -14,23 +14,22 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="text-gray-600400 mb-6">
-            Last Updated: December 27, 2025
+            Last Updated: January 3, 2026
           </p>
           
-          {/* 100% No-Logs Guarantee Banner */}
-          <div className="bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl p-6 mb-8 shadow-xl">
+          {/* No-Logs Policy Summary */}
+          <div className="bg-gradient-to-r from-[#671EE5] to-[#8B5CF6] text-white rounded-xl p-6 mb-8 shadow-xl">
             <div className="flex items-center gap-4 mb-3">
-              <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <div>
-                <h2 className="text-2xl font-bold">🛡️ CERTIFIED 100% NO-LOGS POLICY</h2>
-                <p className="text-green-50">Zero activity tracking • Zero connection logs • Zero compromises</p>
+                <h2 className="text-xl font-bold">No-Logs Policy</h2>
+                <p className="text-purple-100">We do not log your browsing activity</p>
               </div>
             </div>
             <div className="bg-white/10 backdrop-blur rounded-lg p-4">
-              <p className="text-white font-semibold mb-2">WiseVPN guarantees absolute privacy:</p>
-              <p className="text-green-50 text-sm">We DO NOT collect, store, or log your browsing history, traffic data, DNS queries, IP addresses, connection timestamps, or any other online activity. Our infrastructure is designed to make logging technically impossible. When law enforcement requests data, we have nothing to provide — because we never had it in the first place.</p>
+              <p className="text-purple-50 text-sm">WiseVPN does not collect, store, or log your browsing history, traffic content, or DNS queries. We collect only the minimal data necessary to operate our service, as detailed in this policy.</p>
             </div>
           </div>
 
@@ -51,13 +50,13 @@ export default function PrivacyPage() {
                 1.1 Our Technical Infrastructure
               </h3>
               <p className="text-gray-700300 mb-3">
-                WiseVPN is built on privacy-first technology:
+                WiseVPN uses the following technologies:
               </p>
               <ul className="list-disc list-inside text-gray-700300 mb-4 space-y-2">
-                <li><strong>VPN Protocol:</strong> We exclusively use WireGuardÂ®, a modern, secure, and audited VPN protocol known for its privacy and performance</li>
-                <li><strong>Server Infrastructure:</strong> Our servers are hosted on DigitalOcean's secure cloud infrastructure across multiple global locations</li>
-                <li><strong>Backend Services:</strong> We use Appwrite, an open-source backend-as-a-service platform, ensuring transparent and secure data handling</li>
-                <li><strong>Speed Testing:</strong> Connection performance is measured through ICMP ping tests to public endpoints, compliant with Google Play Store policies. No browsing data or personal information is collected during speed tests</li>
+                <li><strong>VPN Protocol:</strong> We use WireGuard®, a modern VPN protocol</li>
+                <li><strong>Server Infrastructure:</strong> Our servers are hosted on DigitalOcean's cloud infrastructure</li>
+                <li><strong>Backend Services:</strong> We use Appwrite for account management and authentication</li>
+                <li><strong>Speed Testing:</strong> Connection performance is measured through ICMP ping tests. No browsing data is collected during speed tests</li>
               </ul>
             </section>
 
@@ -68,10 +67,10 @@ export default function PrivacyPage() {
               </h2>
               <div className="bg-[#F3EBFF]900/20 border-l-4 border-[#F3EBFF]0 p-6 mb-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                  ðŸ›¡ï¸ Data Collection Summary
+                  Data Collection Summary
                 </h3>
                 <p className="text-gray-700300 mb-3">
-                  This section complies with Google Play's Data Safety requirements:
+                  This section provides information for Google Play's Data Safety requirements:
                 </p>
                 
                 <div className="space-y-4 mt-4">
@@ -196,62 +195,22 @@ export default function PrivacyPage() {
               </div>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
-                3.5 Information We DO NOT Collect (100% STRICT NO-LOGS POLICY)
+                3.5 Information We Do Not Collect (No-Logs Policy)
               </h3>
-              <div className="bg-gradient-to-r from-green-50 to-emerald-50 border-2 border-green-600 rounded-lg p-6 mb-6">
-                <div className="flex items-start gap-3 mb-3">
-                  <svg className="w-8 h-8 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <div>
-                    <p className="text-gray-900 font-bold text-xl mb-1">
-                      ✅ VERIFIED 100% NO-LOGS GUARANTEE
-                    </p>
-                    <p className="text-green-800 font-semibold mb-2">
-                      WiseVPN operates under an absolute, auditable zero-logs policy. We have ZERO infrastructure to collect or store:
-                    </p>
-                  </div>
-                </div>
-                <div className="bg-white border border-green-200 rounded-lg p-4">
-                  <ul className="list-none text-gray-900 space-y-2">
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold text-lg">✗</span>
-                      <span><strong>Browsing History:</strong> Websites you visit, pages you view, or content you access</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold text-lg">✗</span>
-                      <span><strong>Traffic Data:</strong> The content of your internet traffic or data packets</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold text-lg">✗</span>
-                      <span><strong>DNS Queries:</strong> Domain names you look up or websites you request</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold text-lg">✗</span>
-                      <span><strong>Source IP Addresses:</strong> Your real IP address during VPN sessions</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold text-lg">✗</span>
-                      <span><strong>Destination IP Addresses:</strong> The servers or services you connect to</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold text-lg">✗</span>
-                      <span><strong>Connection Logs:</strong> Detailed logs of your VPN sessions or activities</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold text-lg">✗</span>
-                      <span><strong>Session Duration Details:</strong> Precise timing of your browsing activities</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold text-lg">✗</span>
-                      <span><strong>Bandwidth Patterns:</strong> Specific usage patterns that could identify your activity</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="bg-green-600 text-white rounded-lg p-4 mt-4">
-                  <p className="font-bold mb-2">🔒 Infrastructure Guarantee:</p>
-                  <p className="text-green-50 text-sm">
-                    Our WireGuard implementation is configured for maximum privacy. The protocol itself is designed to minimize metadata, and our infrastructure on DigitalOcean, AWS, and Hetzner is configured to NOT retain connection logs. When law enforcement requests data, we have nothing to provide — because we never collected it in the first place. This is 100% guaranteed.
+              <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-6">
+                <p className="text-gray-700 mb-4">
+                  WiseVPN follows a no-logs policy for your browsing activity. We do not collect or store:
+                </p>
+                <ul className="list-disc list-inside text-gray-700 space-y-2">
+                  <li><strong>Browsing History:</strong> Websites you visit or content you access</li>
+                  <li><strong>Traffic Content:</strong> The content of your internet traffic</li>
+                  <li><strong>DNS Queries:</strong> Domain names you look up</li>
+                  <li><strong>Original IP Address:</strong> Your real IP address is not logged on our VPN servers</li>
+                  <li><strong>Destination Addresses:</strong> The servers or services you connect to through the VPN</li>
+                </ul>
+                <div className="bg-[#F3EBFF] rounded-lg p-4 mt-4">
+                  <p className="text-gray-700 text-sm">
+                    <strong>Note:</strong> While we do not log browsing activity, we do collect minimal operational data as described in sections 3.1-3.4 above (such as account information, device info, and aggregate connection data) to operate and improve our service.
                   </p>
                 </div>
               </div>
@@ -337,35 +296,29 @@ export default function PrivacyPage() {
                 6.1 VPN Protocol Security (WireGuard)
               </h3>
               <ul className="list-disc list-inside text-gray-700300 space-y-2 mb-6">
-                <li><strong>ChaCha20 Encryption:</strong> WireGuard uses ChaCha20 for symmetric encryption, providing superior security and performance</li>
-                <li><strong>Poly1305 Authentication:</strong> Cryptographic authentication ensures data integrity and prevents tampering</li>
-                <li><strong>Curve25519 Key Exchange:</strong> Modern elliptic curve cryptography for secure key exchange</li>
-                <li><strong>BLAKE2s Hashing:</strong> Fast and secure cryptographic hashing</li>
-                <li><strong>Perfect Forward Secrecy:</strong> Session keys are rotated regularly; compromising one key doesn't affect other sessions</li>
-                <li><strong>Minimal Attack Surface:</strong> WireGuard's codebase is ~4,000 lines (vs OpenVPN's 400,000+), reducing vulnerability exposure</li>
-                <li><strong>Audited & Open Source:</strong> Independently audited and peer-reviewed cryptographic implementation</li>
+                <li><strong>ChaCha20 Encryption:</strong> WireGuard uses ChaCha20 for symmetric encryption</li>
+                <li><strong>Poly1305 Authentication:</strong> Cryptographic authentication for data integrity</li>
+                <li><strong>Curve25519 Key Exchange:</strong> Elliptic curve cryptography for key exchange</li>
+                <li><strong>Open Source:</strong> WireGuard is an open-source protocol</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
                 6.2 Infrastructure Security
               </h3>
               <ul className="list-disc list-inside text-gray-700300 space-y-2 mb-6">
-                <li><strong>DigitalOcean Data Centers:</strong> Enterprise-grade physical security, redundant power, climate control, and 24/7 monitoring</li>
-                <li><strong>Encrypted Storage:</strong> All data at rest is encrypted using AES-256 encryption</li>
-                <li><strong>Secure API Communications:</strong> All communications with Appwrite backend use TLS 1.3 with perfect forward secrecy</li>
-                <li><strong>DDoS Protection:</strong> Multi-layer DDoS mitigation protects our infrastructure</li>
-                <li><strong>Firewall Protection:</strong> Strict firewall rules limit server access to essential services only</li>
+                <li><strong>Cloud Hosting:</strong> Servers hosted on DigitalOcean infrastructure</li>
+                <li><strong>Encrypted Storage:</strong> Data at rest is encrypted</li>
+                <li><strong>Secure Communications:</strong> API communications use TLS encryption</li>
+                <li><strong>Firewall Protection:</strong> Firewall rules to protect server access</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
                 6.3 Application Security
               </h3>
               <ul className="list-disc list-inside text-gray-700300 space-y-2 mb-6">
-                <li><strong>Regular Security Audits:</strong> Third-party security audits and penetration testing</li>
-                <li><strong>Vulnerability Management:</strong> Continuous monitoring and rapid patching of security issues</li>
-                <li><strong>Secure Authentication:</strong> Appwrite handles authentication with bcrypt password hashing and secure session management</li>
-                <li><strong>Code Security:</strong> Regular security scanning of our codebase and dependencies</li>
-                <li><strong>Access Controls:</strong> Role-based access controls and principle of least privilege</li>
+                <li><strong>Secure Authentication:</strong> Appwrite handles authentication with password hashing</li>
+                <li><strong>Code Updates:</strong> Regular updates to address security issues</li>
+                <li><strong>Access Controls:</strong> Role-based access controls</li>
               </ul>
 
               <div className="bg-[#F3EBFF]900/20 border-l-4 border-[#F3EBFF]0 p-4 mt-6">

@@ -1,81 +1,54 @@
 WISEVPN - GOOGLE PLAY STORE LISTING
 ====================================
-Generated: December 29, 2025
+Generated: January 2, 2026
 
-IMPORTANT: Ensure all claims are substantiated and comply with Google Play Store policies.
+IMPORTANT: Simplified version with minimal claims for Google Play compliance.
 
 
 SHORT DESCRIPTION (Max 80 characters)
 ========================================
-Character Count: 69/80
+Character Count: 52/80
 
-Secure VPN with 100% no-logs policy. Browse privately. Stay protected.
+Fast & simple VPN with no-logs policy. Stay private.
 
 
 LONG DESCRIPTION (Max 4000 characters)
 ========================================
-Character Count: 2847/4000
+Character Count: ~1400/4000
 
-🔒 WiseVPN - Your Privacy, Our Priority
+🔒 WiseVPN - Simple & Private VPN
 
-Browse the internet securely and privately with WiseVPN. Trusted by 5M+ users worldwide, we offer military-grade encryption with an absolute 100% strict no-logs policy — no tracking, no compromises.
+WiseVPN helps you browse the internet more privately. We follow a strict no-logs policy — we do not store your browsing activity or connection logs.
 
-✅ VERIFIED 100% NO-LOGS POLICY
-Unlike other VPNs, we don't just claim privacy — we guarantee it. We don't collect, store, or log ANY of your online activity:
-• No browsing history
-• No connection logs
-• No traffic data
-• No DNS queries
-Our infrastructure is designed to make logging impossible. What you do online is your business only.
+🛡️ NO-LOGS POLICY
+We do not log or store:
+• Your browsing history
+• Your connection timestamps
+• Your traffic data
 
-🚀 WIREGUARD® PROTOCOL - THE FASTEST VPN TECHNOLOGY
-We exclusively use WireGuard, the most advanced VPN protocol available:
-• ChaCha20 encryption for maximum security
-• Up to 4x faster than traditional VPN protocols
-• ~4,000 lines of auditable code (vs. 400,000+ in older protocols)
-• Lightning-fast speeds on DigitalOcean's premium infrastructure
-
-🌍 GLOBAL NETWORK
-• 2000+ servers in 75+ countries worldwide
-• Unlimited bandwidth on all plans
-• ICMP ping testing to find the fastest server
-• True worldwide coverage
-
-🛡️ POWERFUL SECURITY FEATURES
-• Kill Switch - Blocks internet if VPN drops
-• DNS Leak Protection - Keep your DNS queries private
+📱 KEY FEATURES
+• WireGuard® Protocol - Modern VPN protocol for better performance
+• Kill Switch - Helps protect your connection
 • Split Tunneling - Choose which apps use VPN
-• Multi-Device Support - Protect up to 10 devices simultaneously
-• 24/7 Customer Support - We're here when you need us
+• Multi-Device Support - Use on multiple devices
+• Global Servers - Connect to servers in various locations
 
-📱 COMPATIBLE WITH ALL YOUR DEVICES
-• Android
-• Windows, Mac, Linux
-• iOS
-• And more
+🌍 HOW IT WORKS
+1. Download and create an account
+2. Choose a server location
+3. Tap connect and browse more privately
 
-💎 FLEXIBLE PLANS FOR EVERYONE
-• Free Plan - Basic VPN protection with ads
-• Premium Plans - Ad-free experience starting at just $3.99/month
-• 30-Day Money-Back Guarantee on all premium plans
-• No credit card required to try
+💎 PLANS
+• Free Plan - VPN access with ads
+• Premium Plans - Ad-free experience with more features
+• Subscription options available monthly and yearly
 
-🎯 WHY CHOOSE WISEVPN?
-✓ Privacy First - Absolute zero activity tracking guaranteed
-✓ Lightning-Fast - WireGuard protocol delivers blazing speeds
-✓ Global Coverage - Access content from anywhere in the world
-✓ Always Innovating - Regular updates with cutting-edge technology
-✓ Transparent - Simple pricing, no hidden fees
-✓ Secure Infrastructure - Enterprise-grade DigitalOcean hosting
+📋 ADDITIONAL INFO
+• Customer support available via email
+• Regular app updates
+• Easy-to-use interface
 
-🔐 PROTECT YOUR DIGITAL LIFE
-• Browse anonymously without being tracked
-• Secure your connection on public Wi-Fi
-• Access geo-restricted content worldwide
-• Protect sensitive data from hackers
-• Shield your online identity from ISPs and advertisers
-
-Download WiseVPN today and experience true internet freedom with guaranteed privacy protection!
+Download WiseVPN and start browsing more privately today.
 
 ---
 WireGuard® is a registered trademark of Jason A. Donenfeld.

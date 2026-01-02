@@ -14,7 +14,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="text-gray-600400 mb-8">
-            Last Updated: December 27, 2025
+            Last Updated: January 3, 2026
           </p>
 
           <div className="prose max-w-none">
@@ -120,11 +120,10 @@ export default function TermsPage() {
                 Our VPN servers are hosted on <strong>DigitalOcean's cloud infrastructure</strong>:
               </p>
               <ul className="list-disc list-inside text-gray-700300 space-y-2 mb-4">
-                <li>Enterprise-grade security and reliability</li>
-                <li>99.9% uptime SLA</li>
-                <li>Servers located in 75+ countries worldwide</li>
-                <li>We maintain physical and digital security controls</li>
-                <li>Regular security audits and updates</li>
+                <li>Cloud-based server infrastructure</li>
+                <li>Servers located in various countries</li>
+                <li>Security controls and monitoring</li>
+                <li>Regular updates and maintenance</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
@@ -176,12 +175,10 @@ export default function TermsPage() {
               <div className="bg-[#F3EBFF]900/20 rounded-lg p-6 mb-4">
                 <h4 className="font-semibold text-gray-900 mb-3">Premium Plans (Monthly, Annual, 2-Year)</h4>
                 <ul className="list-disc list-inside text-gray-700300 space-y-2">
-                  <li><strong>Completely ad-free</strong> - No advertisements whatsoever</li>
-                  <li>Access to all 2000+ servers in 75+ countries</li>
-                  <li>Unlimited bandwidth and fastest speeds</li>
-                  <li>Connect up to 10 devices simultaneously</li>
-                  <li>Priority customer support</li>
-                  <li>Streaming-optimized servers</li>
+                  <li><strong>Ad-free experience</strong> - No advertisements</li>
+                  <li>Access to all available servers</li>
+                  <li>Connect on multiple devices</li>
+                  <li>Customer support via email</li>
                   <li>No collection or sharing of advertising identifiers</li>
                 </ul>
               </div>
@@ -272,10 +269,10 @@ export default function TermsPage() {
                 Key privacy practices:
               </p>
               <ul className="list-disc list-inside text-gray-700300 space-y-2">
-                <li><strong>No-Logs Policy:</strong> We do not collect or store browsing history, traffic data, DNS queries, or IP addresses during VPN sessions</li>
-                <li><strong>WireGuard Privacy:</strong> Our WireGuard implementation is configured for maximum privacy</li>
-                <li><strong>Account Data:</strong> Stored securely via Appwrite with industry-standard encryption</li>
-                <li><strong>Advertising Data (Free Plan):</strong> Device advertising ID collected for ad serving - removed when upgrading to Premium</li>
+                <li><strong>No-Logs Policy:</strong> We do not log your browsing activity or traffic content</li>
+                <li><strong>WireGuard Protocol:</strong> Modern VPN protocol for secure connections</li>
+                <li><strong>Account Data:</strong> Stored securely via Appwrite with encryption</li>
+                <li><strong>Advertising Data (Free Plan):</strong> Device advertising ID collected for ad serving - not collected for Premium users</li>
                 <li><strong>Speed Testing:</strong> ICMP ping tests do not collect personal information</li>
               </ul>
               <p className="text-gray-700300 mt-4">
